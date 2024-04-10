@@ -1,4 +1,4 @@
-const { Add, Get, Update, Count } = require("../controllers/Controllers");
+const { Add, Get, Update, Count } = require("../controllers/controllers");
 const express = require("express");
 const CrudRoute = express.Router();
 CrudRoute.get("/", Get);
